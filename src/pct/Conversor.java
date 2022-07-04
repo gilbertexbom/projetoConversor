@@ -27,10 +27,10 @@ public class Conversor {
         fah = entrada.nextDouble();
         
         //Processamento
-        cel = 9 * fah / 5 + 32;
+        cel = 5 * (fah - 32) / 9;
         
         //Saída
-        System.out.printf("%.2fº Fahrenheit = %.2fº Celsius\n\n", fah, cel);
+        System.out.printf("\n\n%.2fº Fahrenheit = %.2fº Celsius\n\n", fah, cel);
         
     }
 }
